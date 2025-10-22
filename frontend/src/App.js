@@ -36,7 +36,7 @@ function App() {
 
   return (
     <div style={styles.container}>
-      <h1 style={styles.heading}>Spring AI Q&A</h1>
+      <h1 style={styles.heading}>Gemini Chatbot</h1>
 
       <div style={styles.inputGroup}>
         <label htmlFor="question" style={styles.label}>

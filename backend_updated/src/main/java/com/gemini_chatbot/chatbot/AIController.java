@@ -15,7 +15,7 @@ import java.util.Map;
 public class AIController {
 
     private final QnAService qnaService;
-    @CrossOrigin(origins = "http://localhost:3000")
+    // @CrossOrigin(origins = "http://localhost:3000")
     @PostMapping("/ask")
     public String askQuestion(@RequestBody Map<String, String> payload){
         String question = payload.get("question");
