@@ -28,10 +28,10 @@ public class AIController {
     public ResponseEntity<String> ping() {
         return ResponseEntity.ok("pong");
     }
-    @GetMapping("/checking")
-    public ResponseEntity<String> checking() {
-         System.out.println("checking");
-         return ResponseEntity.ok("checking");
-    }
+//    @GetMapping("/checking")
+//    public ResponseEntity<String> checking() {
+//         System.out.println("checking");
+//         return ResponseEntity.ok("checking");
+//    }
 
 }

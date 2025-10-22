@@ -1,3 +1,5 @@
+com\gemini_chatbot\chatbot\ChatbotApplication.class
+com\gemini_chatbot\chatbot\WebConfig$1.class
 com\gemini_chatbot\chatbot\AIController.class
 com\gemini_chatbot\chatbot\QnAService.class
-com\gemini_chatbot\chatbot\ChatbotApplication.class
+com\gemini_chatbot\chatbot\WebConfig.class
