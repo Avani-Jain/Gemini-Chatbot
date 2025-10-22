@@ -13,7 +13,7 @@ public class CorsConfig {
             @Override
             public void addCorsMappings(CorsRegistry registry) {
                 registry.addMapping("/**")
-                        .allowedOrigins("*")  // ✅ Allow all origins or specify e.g. "https://your-frontend.vercel.app"
+                        .allowedOrigins("http://localhost:3000", "https://your-frontend-url.com")
                         .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
                         .allowedHeaders("*");
             }
